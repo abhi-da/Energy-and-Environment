@@ -2,17 +2,143 @@ In this assignment, I have tried to us Python to find the SDG index value for th
 
 SDGs are used to measure and track the progress of countries, regions, or organizations towards achieving the United Nations' 17 Sustainable Development Goals (SDGs). It helps on tracking proress, policy formation, spreading awareness and various other use cases. The SDG indicators used for the calculation of SDG 7 index were: 1) access to electricity: sdg7_elecac, 2) clean cooking fuel: sdg7_cleanfuel , 3) C02 emissions per unit energy output: sdg7_co2twh, Renewable energy share in total final energy consumption: sdg7_renewcon
 
-In the assigment, I have calculated only index for SDG 7, howewer, the code is fully capable to calculate indexes for all the SDGs and teh combined SDG index. SDG 7 measures progress in achieving universal access to affordable, reliable energy. It tracks improvements in energy access, increases in renewable energy use, and enhancements in energy efficiency. These measures help address energy poverty, support economic growth, and reduce environmental impact, driving global progress towards sustainable energy solutions.
+In the assigment, I have calculated only index for SDG 7, howewer, the code is fully capable to calculate indexes for all the SDGs and the combined SDG index. SDG 7 measures progress in achieving universal access to affordable, reliable energy. It tracks improvements in energy access, increases in renewable energy use, and enhancements in energy efficiency. These measures help address energy poverty, support economic growth, and reduce environmental impact, driving global progress towards sustainable energy solutions.
+
+code to select sdg7 indicators: In the code let all the columns remain and we can calculate overall SDGs
+'''
+import pandas as pd
+import numpy as np
+import os
+
+df = pd.read_csv(file_path = r'F:\GitHub\Energy-and-Environment\SDG\sdg.csv')
+
+new_data=df.iloc[:,[0,53,54,55,56]]
+print(new_data)
+
+new_data.to_csv('new_data_afg.csv',index=False)
+'''
+
 
  
 First of all, I grouped the countries and saved each countries dataset into different folder. I did this so that same code could be run for all the files and thus we can find SDG index for all the countries.
-Then in teh enext step, I needed to clean the data. That is to fill in the missing values. i performed 'spline' interpolation metho for this. It is used to fill in missing values or smooth out data by fitting a smooth curve through a set of data points. So that made it a better alternative than filling put the mean values or linar interpolation.
+
+code to group countries: 
+'''
+import pandas as pd
+import numpy as np
+import os
+
+output_folder = r'F:\GitHub\Energy-and-Environment\SDG\Country Data'
+
+os.makedirs(output_folder, exist_ok=True)
+
+file_path = r'F:\GitHub\Energy-and-Environment\SDG\sdg7.csv'
+df = pd.read_csv(file_path)
+
+unique_country=df['id'].unique()
+
+for id in unique_country:
+    country_data=df[df['id']==id]
+
+    filename=os.path.join(output_folder, f'{id}_data.csv')
+
+    country_data.to_csv(filename, index=False)
+
+    print(f'saved {filename}')
+'''
+
+
+Then in the next step, I needed to clean the data. That is to fill in the missing values. I performed 'spline' interpolation metho for this. It is used to fill in missing values or smooth out data by fitting a smooth curve through a set of data points. So that made it a better alternative than filling put the mean values or linar interpolation.
+
+code to clean data:
+'''
+import pandas as pd
+import numpy as np
+import os
+import glob
+
+input_directory = r'F:\GitHub\SDG\Country Data'
+output_directory = r'F:\GitHub\SDG\Country_data_cleaned'
+
+os.makedirs(output_directory, exist_ok=True)
+
+csv_files = glob.glob(os.path.join(input_directory, '*.csv'))
+
+min_value = 0
+max_value = 100
+
+
+for file_path in csv_files:
+    
+    df = pd.read_csv(file_path)
+ 
+    
+ 
+    first_column = df.columns[0]
+    columns_to_interpolate = df.columns[1:]
+    df[columns_to_interpolate] = df[columns_to_interpolate].interpolate(method='spline', order=1)
+    df[columns_to_interpolate] = df[columns_to_interpolate].clip(lower=min_value, upper=max_value)
+
+    output_file_path = os.path.join(output_directory, f'cleaned_{os.path.basename(file_path)}')
+    df.to_csv(output_file_path, index=False)
+
+    print(df[columns_to_interpolate])
+
+'''
 
 After I cleaned the data, next job was to normalise the data so that we can compare the values with ease and also making an index gets comfortble with it. For this, I made a csv file containing the minimum and maimum values for the indicators mentioned. I took the minimum and maximum values as given as on the SDG report 2023.
 Withh normalisation, the issue was that some cell conatined values in negative, where as some conatined values above 100. To correct this, I 'clipped' the values between 0 and 100, that is if any cell value went beyond 100, it will be replaced with 100 and if any cell value went negative, it would be replaced by 0.
 
 I used the following formula for normalisation: [(cell value - min value of the respective cell indicator)*100]/[max value of teh respective cell indicator - min value of the respective cell indicator]
 
-After normlaisation, I took simply the mean of each row, and that produced the SDG 7 index. 
-I also took the help of AI to loo for solutuons when stuck.
+After normlaisation, I took simply the mean of each row as mentioned in methodlogy of SDG report 2023, and that produced the SDG 7 index. 
+
+code for normalisation and finding index:
+'''
+import pandas as pd
+import numpy as np
+import os
+import glob
+
+input_directory = r'F:\GitHub\Energy-and-Environment\SDG\Country_data_cleaned'
+output_directory = r'F:\GitHub\Energy-and-Environment\SDG\sdg_index'
+
+os.makedirs(output_directory, exist_ok=True)
+
+csv_files = glob.glob(os.path.join(input_directory, '*.csv'))
+min_max_df = pd.read_csv(r'F:\GitHub\Energy-and-Environment\SDG_afg\min_max.csv', index_col=0)
+
+
+min_v = pd.to_numeric(min_max_df['min value'], errors='coerce')
+max_v = pd.to_numeric(min_max_df['max value'], errors='coerce')
+print(min_v)
+print(max_v)
+
+for file_path in csv_files:
+    df = pd.read_csv(file_path)
+    df = df.iloc[:, 1:]
+    
+
+
+    df = df.apply(pd.to_numeric, errors='coerce')
+
+    for column in df.columns:
+        if column in min_v.index and column in max_v.index:
+            min_val = min_v[column]
+            max_val = max_v[column]
+
+            if pd.notna(min_val) and pd.notna(max_val):  
+                if max_val != min_val:
+                    df[column] = (df[column] - min_val) * 100 / (max_val - min_val)
+                    df[column] = df[column].clip(0, upper=100)
+                else:
+                    df[column] = 0
+    
+    sdg=df['mean index']=df.mean(axis=1)
+    output_file_path = os.path.join(output_directory, f'sdg_index_{os.path.basename(file_path)}')
+    sdg.to_csv(output_file_path,index=False)
+
+'''
+
+I also took the help of AI to look for solutuons when stuck.
 
