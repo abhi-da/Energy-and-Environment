@@ -1,2 +1,2 @@
 # Energy-and-Environment
-Assignments and Projects of Energy and Environment
+The repository will contain the submitted assignnent used during the course Energy and Environment 2
