@@ -1,1 +1,18 @@
+In this assignment, I have tried to us Python to find the SDG index value for the 193 UN Mmber countries. The official SDG index conatains index values for only 163 countries cause the other 20 countries has large amount of missing points. However, I have calculated for all the 193 memeber countries. 
+
+SDGs are used to measure and track the progress of countries, regions, or organizations towards achieving the United Nations' 17 Sustainable Development Goals (SDGs). It helps on tracking proress, policy formation, spreading awareness and various other use cases. The SDG indicators used for the calculation of SDG 7 index were: 1) access to electricity: sdg7_elecac, 2) clean cooking fuel: sdg7_cleanfuel , 3) C02 emissions per unit energy output: sdg7_co2twh, Renewable energy share in total final energy consumption: sdg7_renewcon
+
+In the assigment, I have calculated only index for SDG 7, howewer, the code is fully capable to calculate indexes for all the SDGs and teh combined SDG index. SDG 7 measures progress in achieving universal access to affordable, reliable energy. It tracks improvements in energy access, increases in renewable energy use, and enhancements in energy efficiency. These measures help address energy poverty, support economic growth, and reduce environmental impact, driving global progress towards sustainable energy solutions.
+
+ 
+First of all, I grouped the countries and saved each countries dataset into different folder. I did this so that same code could be run for all the files and thus we can find SDG index for all the countries.
+Then in teh enext step, I needed to clean the data. That is to fill in the missing values. i performed 'spline' interpolation metho for this. It is used to fill in missing values or smooth out data by fitting a smooth curve through a set of data points. So that made it a better alternative than filling put the mean values or linar interpolation.
+
+After I cleaned the data, next job was to normalise the data so that we can compare the values with ease and also making an index gets comfortble with it. For this, I made a csv file containing the minimum and maimum values for the indicators mentioned. I took the minimum and maximum values as given as on the SDG report 2023.
+Withh normalisation, the issue was that some cell conatined values in negative, where as some conatined values above 100. To correct this, I 'clipped' the values between 0 and 100, that is if any cell value went beyond 100, it will be replaced with 100 and if any cell value went negative, it would be replaced by 0.
+
+I used the following formula for normalisation: [(cell value - min value of the respective cell indicator)*100]/[max value of teh respective cell indicator - min value of the respective cell indicator]
+
+After normlaisation, I took simply the mean of each row, and that produced the SDG 7 index. 
+I also took the help of AI to loo for solutuons when stuck.
 
