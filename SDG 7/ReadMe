@@ -4,7 +4,7 @@ SDGs are used to measure and track the progress of countries, regions, or organi
 
 In the assigment, I have calculated only index for SDG 7, howewer, the code is fully capable to calculate indexes for all the SDGs and the combined SDG index. SDG 7 measures progress in achieving universal access to affordable, reliable energy. It tracks improvements in energy access, increases in renewable energy use, and enhancements in energy efficiency. These measures help address energy poverty, support economic growth, and reduce environmental impact, driving global progress towards sustainable energy solutions.
 
-code to select sdg7 indicators: In the code let all the columns remain and we can calculate overall SDGs
+code to select sdg7 indicators: In the code if we don't remove the columns, we can calculate overall SDGs, using all SDG indicators
 '''
 import pandas as pd
 import numpy as np
