@@ -1,0 +1,14 @@
+Energy and Environment II
+Abhijeet Kumar Mishra
+Assignment 2
+
+Question:
+
+1)	A data analyst founded that; energy consumption is increasing at a rate proportional to the amount of energy consumption. If the total initial energy consumption (at t=0) is 1000 Kwh and after a year (at t=1) the energy consumption is 3000 Kwh, find the total energy consumption at the end of a decade assuming a constant growth rate.
+
+2)	Now continuing with the first question, assume that the initial population level (at t=0) was 100, now determine the population at the end of decade (at t=10) if the per capita energy consumption remains the same throughout until the end of the decade.
+
+
+3)	If per capita energy consumption at the end should be lower than the initial per capita consumption, what is the population growth rate which would allow this. Assume the energy growth rate to be the same we found in Question 1.
+
+4)	The per capita GDP of the society was ₹ 1000 at t=0, and y’(0)=0 ; and the GDP grow at the rate of d2y/dt2 = et (y=GDP , t= time). Calculate the energy intensity at t=10. Which year was more energy efficient? 
