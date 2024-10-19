@@ -1,0 +1,11 @@
+Average share for each energy source:
+Total energy consumption share: 417.11%
+Total energy consumption from natural gas share: 97.18%
+Total energy consumption from nuclear share: 36.35%
+Total energy consumption from nuclear, renewables, and other share: 56.60%
+Total energy consumption from petroleum and other liquids share: 163.33%
+Total energy consumption from renewables and other share: 20.25%
+
+Year with highest share for any sector: 2020
+Year with highest growth rate: 2021
+Highest growth rate: 20.02%
