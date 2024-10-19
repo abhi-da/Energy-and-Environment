@@ -1,0 +1,266 @@
+[
+    {
+        "date":1991,
+        "Population":79891.0,
+        "GDP per capita":0.0354683256,
+        "Energy intensity":0.1732778091,
+        "Carbon intensity":2.0224032587,
+        "Emissions (F)":993.0
+    },
+    {
+        "date":1992,
+        "Population":80287.0,
+        "GDP per capita":0.0358576108,
+        "Energy intensity":0.1688144778,
+        "Carbon intensity":1.9609053498,
+        "Emissions (F)":953.0
+    },
+    {
+        "date":1993,
+        "Population":80810.0,
+        "GDP per capita":0.0352716248,
+        "Energy intensity":0.1673508052,
+        "Carbon intensity":1.964360587,
+        "Emissions (F)":937.0
+    },
+    {
+        "date":1994,
+        "Population":81085.0,
+        "GDP per capita":0.0360868225,
+        "Energy intensity":0.1623321144,
+        "Carbon intensity":1.9178947368,
+        "Emissions (F)":911.0
+    },
+    {
+        "date":1995,
+        "Population":81238.0,
+        "GDP per capita":0.0365887885,
+        "Energy intensity":0.1624949536,
+        "Carbon intensity":1.9089026915,
+        "Emissions (F)":922.0
+    },
+    {
+        "date":1996,
+        "Population":81414.0,
+        "GDP per capita":0.0368966025,
+        "Energy intensity":0.1627883751,
+        "Carbon intensity":1.9161554192,
+        "Emissions (F)":937.0
+    },
+    {
+        "date":1997,
+        "Population":81508.0,
+        "GDP per capita":0.0375680915,
+        "Energy intensity":0.1610006205,
+        "Carbon intensity":1.8397565923,
+        "Emissions (F)":907.0
+    },
+    {
+        "date":1998,
+        "Population":81476.0,
+        "GDP per capita":0.0382898031,
+        "Energy intensity":0.1593101901,
+        "Carbon intensity":1.8108651911,
+        "Emissions (F)":900.0
+    },
+    {
+        "date":1999,
+        "Population":81417.0,
+        "GDP per capita":0.0390802904,
+        "Energy intensity":0.1562008926,
+        "Carbon intensity":1.7444668008,
+        "Emissions (F)":867.0
+    },
+    {
+        "date":2000,
+        "Population":81447.0,
+        "GDP per capita":0.0402801822,
+        "Energy intensity":0.1618557015,
+        "Carbon intensity":1.6421845574,
+        "Emissions (F)":872.0
+    },
+    {
+        "date":2001,
+        "Population":81488.0,
+        "GDP per capita":0.0409655409,
+        "Energy intensity":0.1623629501,
+        "Carbon intensity":1.6383763838,
+        "Emissions (F)":888.0
+    },
+    {
+        "date":2002,
+        "Population":81562.0,
+        "GDP per capita":0.0408511317,
+        "Energy intensity":0.1662714967,
+        "Carbon intensity":1.5758122744,
+        "Emissions (F)":873.0
+    },
+    {
+        "date":2003,
+        "Population":81568.0,
+        "GDP per capita":0.040625,
+        "Energy intensity":0.1695989377,
+        "Carbon intensity":1.5551601423,
+        "Emissions (F)":874.0
+    },
+    {
+        "date":2004,
+        "Population":81494.0,
+        "GDP per capita":0.0409477998,
+        "Energy intensity":0.1705124363,
+        "Carbon intensity":1.5219683656,
+        "Emissions (F)":866.0
+    },
+    {
+        "date":2005,
+        "Population":81383.0,
+        "GDP per capita":0.0414349434,
+        "Energy intensity":0.1684410308,
+        "Carbon intensity":1.485915493,
+        "Emissions (F)":844.0
+    },
+    {
+        "date":2006,
+        "Population":81240.0,
+        "GDP per capita":0.0431856228,
+        "Energy intensity":0.1633223122,
+        "Carbon intensity":1.4991273997,
+        "Emissions (F)":859.0
+    },
+    {
+        "date":2007,
+        "Population":81058.0,
+        "GDP per capita":0.0445767228,
+        "Energy intensity":0.1594110647,
+        "Carbon intensity":1.4444444444,
+        "Emissions (F)":832.0
+    },
+    {
+        "date":2008,
+        "Population":80857.0,
+        "GDP per capita":0.0449756978,
+        "Energy intensity":0.1575647583,
+        "Carbon intensity":1.4607329843,
+        "Emissions (F)":837.0
+    },
+    {
+        "date":2009,
+        "Population":80586.0,
+        "GDP per capita":0.0426463654,
+        "Energy intensity":0.1577094306,
+        "Carbon intensity":1.442804428,
+        "Emissions (F)":782.0
+    },
+    {
+        "date":2010,
+        "Population":80320.0,
+        "GDP per capita":0.0445032371,
+        "Energy intensity":0.1583438243,
+        "Carbon intensity":1.4522968198,
+        "Emissions (F)":822.0
+    },
+    {
+        "date":2011,
+        "Population":80288.0,
+        "GDP per capita":0.0462285771,
+        "Energy intensity":0.1503394762,
+        "Carbon intensity":1.4211469534,
+        "Emissions (F)":793.0
+    },
+    {
+        "date":2012,
+        "Population":80450.0,
+        "GDP per capita":0.0464362958,
+        "Energy intensity":0.1488302372,
+        "Carbon intensity":1.4514388489,
+        "Emissions (F)":807.0
+    },
+    {
+        "date":2013,
+        "Population":80676.0,
+        "GDP per capita":0.0465417224,
+        "Energy intensity":0.1478108022,
+        "Carbon intensity":1.4810810811,
+        "Emissions (F)":822.0
+    },
+    {
+        "date":2014,
+        "Population":81036.0,
+        "GDP per capita":0.0473382201,
+        "Energy intensity":0.1415500117,
+        "Carbon intensity":1.4438305709,
+        "Emissions (F)":784.0
+    },
+    {
+        "date":2015,
+        "Population":81809.0,
+        "GDP per capita":0.0475497806,
+        "Energy intensity":0.140874036,
+        "Carbon intensity":1.4379562044,
+        "Emissions (F)":788.0
+    },
+    {
+        "date":2016,
+        "Population":82392.0,
+        "GDP per capita":0.0482583261,
+        "Energy intensity":0.1385780036,
+        "Carbon intensity":1.4319419238,
+        "Emissions (F)":789.0
+    },
+    {
+        "date":2017,
+        "Population":82691.0,
+        "GDP per capita":0.0495289693,
+        "Energy intensity":0.134778787,
+        "Carbon intensity":1.4583333333,
+        "Emissions (F)":805.0
+    },
+    {
+        "date":2018,
+        "Population":82934.0,
+        "GDP per capita":0.0499433284,
+        "Energy intensity":0.1308546596,
+        "Carbon intensity":1.442804428,
+        "Emissions (F)":782.0
+    },
+    {
+        "date":2019,
+        "Population":83111.0,
+        "GDP per capita":0.0503495326,
+        "Energy intensity":0.125937963,
+        "Carbon intensity":1.3681214421,
+        "Emissions (F)":721.0
+    },
+    {
+        "date":2020,
+        "Population":83159.0,
+        "GDP per capita":0.0480765762,
+        "Energy intensity":0.1260630315,
+        "Carbon intensity":1.251984127,
+        "Emissions (F)":631.0
+    },
+    {
+        "date":2021,
+        "Population":83206.0,
+        "GDP per capita":0.0497908805,
+        "Energy intensity":0.1259986966,
+        "Carbon intensity":1.2931034483,
+        "Emissions (F)":675.0
+    },
+    {
+        "date":2022,
+        "Population":83938.0,
+        "GDP per capita":0.05007029,
+        "Energy intensity":0.1206338631,
+        "Carbon intensity":1.3175542406,
+        "Emissions (F)":668.0
+    },
+    {
+        "date":2023,
+        "Population":84532.0,
+        "GDP per capita":0.0496876922,
+        "Energy intensity":0.1099947622,
+        "Carbon intensity":null,
+        "Emissions (F)":null
+    }
+]

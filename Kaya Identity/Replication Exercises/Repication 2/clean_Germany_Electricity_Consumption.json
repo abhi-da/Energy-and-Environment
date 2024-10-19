@@ -1,0 +1,139 @@
+[
+    {
+        "name": "Electricity net consumption",
+        "data": [
+            {
+                "date": 1991,
+                "value": 491
+            },
+            {
+                "date": 1992,
+                "value": 486
+            },
+            {
+                "date": 1993,
+                "value": 477
+            },
+            {
+                "date": 1994,
+                "value": 475
+            },
+            {
+                "date": 1995,
+                "value": 483
+            },
+            {
+                "date": 1996,
+                "value": 489
+            },
+            {
+                "date": 1997,
+                "value": 493
+            },
+            {
+                "date": 1998,
+                "value": 497
+            },
+            {
+                "date": 1999,
+                "value": 497
+            },
+            {
+                "date": 2000,
+                "value": 531
+            },
+            {
+                "date": 2001,
+                "value": 542
+            },
+            {
+                "date": 2002,
+                "value": 554
+            },
+            {
+                "date": 2003,
+                "value": 562
+            },
+            {
+                "date": 2004,
+                "value": 569
+            },
+            {
+                "date": 2005,
+                "value": 568
+            },
+            {
+                "date": 2006,
+                "value": 573
+            },
+            {
+                "date": 2007,
+                "value": 576
+            },
+            {
+                "date": 2008,
+                "value": 573
+            },
+            {
+                "date": 2009,
+                "value": 542
+            },
+            {
+                "date": 2010,
+                "value": 566
+            },
+            {
+                "date": 2011,
+                "value": 558
+            },
+            {
+                "date": 2012,
+                "value": 556
+            },
+            {
+                "date": 2013,
+                "value": 555
+            },
+            {
+                "date": 2014,
+                "value": 543
+            },
+            {
+                "date": 2015,
+                "value": 548
+            },
+            {
+                "date": 2016,
+                "value": 551
+            },
+            {
+                "date": 2017,
+                "value": 552
+            },
+            {
+                "date": 2018,
+                "value": 542
+            },
+            {
+                "date": 2019,
+                "value": 527
+            },
+            {
+                "date": 2020,
+                "value": 504
+            },
+            {
+                "date": 2021,
+                "value": 522
+            },
+            {
+                "date": 2022,
+                "value": 507
+            },
+            {
+                "date": 2023,
+                "value": 462
+            }
+        ]
+    }
+]
