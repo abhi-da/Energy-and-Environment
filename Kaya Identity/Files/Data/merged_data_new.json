@@ -1,0 +1,652 @@
+[
+    {
+        "date": 1991,
+        "value": 14.853,
+        "sector": "Total energy consumption"
+    },
+    {
+        "date": 1992,
+        "value": 14.553,
+        "sector": "Total energy consumption"
+    },
+    {
+        "date": 1993,
+        "value": 14.457,
+        "sector": "Total energy consumption"
+    },
+    {
+        "date": 1994,
+        "value": 14.276,
+        "sector": "Total energy consumption"
+    },
+    {
+        "date": 1995,
+        "value": 14.564,
+        "sector": "Total energy consumption"
+    },
+    {
+        "date": 1996,
+        "value": 14.778,
+        "sector": "Total energy consumption"
+    },
+    {
+        "date": 1997,
+        "value": 14.575,
+        "sector": "Total energy consumption"
+    },
+    {
+        "date": 1998,
+        "value": 14.509,
+        "sector": "Total energy consumption"
+    },
+    {
+        "date": 1999,
+        "value": 14.205,
+        "sector": "Total energy consumption"
+    },
+    {
+        "date": 2000,
+        "value": 14.185,
+        "sector": "Total energy consumption"
+    },
+    {
+        "date": 2001,
+        "value": 14.449,
+        "sector": "Total energy consumption"
+    },
+    {
+        "date": 2002,
+        "value": 14.202,
+        "sector": "Total energy consumption"
+    },
+    {
+        "date": 2003,
+        "value": 14.185,
+        "sector": "Total energy consumption"
+    },
+    {
+        "date": 2004,
+        "value": 14.192,
+        "sector": "Total energy consumption"
+    },
+    {
+        "date": 2005,
+        "value": 13.976,
+        "sector": "Total energy consumption"
+    },
+    {
+        "date": 2006,
+        "value": 14.208,
+        "sector": "Total energy consumption"
+    },
+    {
+        "date": 2007,
+        "value": 13.579,
+        "sector": "Total energy consumption"
+    },
+    {
+        "date": 2008,
+        "value": 13.85,
+        "sector": "Total energy consumption"
+    },
+    {
+        "date": 2009,
+        "value": 13.017,
+        "sector": "Total energy consumption"
+    },
+    {
+        "date": 2010,
+        "value": 13.695,
+        "sector": "Total energy consumption"
+    },
+    {
+        "date": 2011,
+        "value": 13,
+        "sector": "Total energy consumption"
+    },
+    {
+        "date": 2012,
+        "value": 13.096,
+        "sector": "Total energy consumption"
+    },
+    {
+        "date": 2013,
+        "value": 13.294,
+        "sector": "Total energy consumption"
+    },
+    {
+        "date": 2014,
+        "value": 12.792,
+        "sector": "Total energy consumption"
+    },
+    {
+        "date": 2015,
+        "value": 12.836,
+        "sector": "Total energy consumption"
+    },
+    {
+        "date": 2016,
+        "value": 12.931,
+        "sector": "Total energy consumption"
+    },
+    {
+        "date": 2017,
+        "value": 13.252,
+        "sector": "Total energy consumption"
+    },
+    {
+        "date": 2018,
+        "value": 12.839,
+        "sector": "Total energy consumption"
+    },
+    {
+        "date": 2019,
+        "value": 12.325,
+        "sector": "Total energy consumption"
+    },
+    {
+        "date": 2020,
+        "value": 11.129,
+        "sector": "Total energy consumption"
+    },
+    {
+        "date": 2021,
+        "value": 11.834,
+        "sector": "Total energy consumption"
+    },
+    {
+        "date": 2022,
+        "value": 11.093,
+        "sector": "Total energy consumption"
+    },
+    {
+        "date": 1991,
+        "value": 2833.6,
+        "sector": "GDP at purchasing power parities"
+    },
+    {
+        "date": 1992,
+        "value": 2878.9,
+        "sector": "GDP at purchasing power parities"
+    },
+    {
+        "date": 1993,
+        "value": 2850.3,
+        "sector": "GDP at purchasing power parities"
+    },
+    {
+        "date": 1994,
+        "value": 2926.1,
+        "sector": "GDP at purchasing power parities"
+    },
+    {
+        "date": 1995,
+        "value": 2972.4,
+        "sector": "GDP at purchasing power parities"
+    },
+    {
+        "date": 1996,
+        "value": 3003.9,
+        "sector": "GDP at purchasing power parities"
+    },
+    {
+        "date": 1997,
+        "value": 3062.1,
+        "sector": "GDP at purchasing power parities"
+    },
+    {
+        "date": 1998,
+        "value": 3119.7,
+        "sector": "GDP at purchasing power parities"
+    },
+    {
+        "date": 1999,
+        "value": 3181.8,
+        "sector": "GDP at purchasing power parities"
+    },
+    {
+        "date": 2000,
+        "value": 3280.7,
+        "sector": "GDP at purchasing power parities"
+    },
+    {
+        "date": 2001,
+        "value": 3338.2,
+        "sector": "GDP at purchasing power parities"
+    },
+    {
+        "date": 2002,
+        "value": 3331.9,
+        "sector": "GDP at purchasing power parities"
+    },
+    {
+        "date": 2003,
+        "value": 3313.7,
+        "sector": "GDP at purchasing power parities"
+    },
+    {
+        "date": 2004,
+        "value": 3337,
+        "sector": "GDP at purchasing power parities"
+    },
+    {
+        "date": 2005,
+        "value": 3372.1,
+        "sector": "GDP at purchasing power parities"
+    },
+    {
+        "date": 2006,
+        "value": 3508.4,
+        "sector": "GDP at purchasing power parities"
+    },
+    {
+        "date": 2007,
+        "value": 3613.3,
+        "sector": "GDP at purchasing power parities"
+    },
+    {
+        "date": 2008,
+        "value": 3636.6,
+        "sector": "GDP at purchasing power parities"
+    },
+    {
+        "date": 2009,
+        "value": 3436.7,
+        "sector": "GDP at purchasing power parities"
+    },
+    {
+        "date": 2010,
+        "value": 3574.5,
+        "sector": "GDP at purchasing power parities"
+    },
+    {
+        "date": 2011,
+        "value": 3711.6,
+        "sector": "GDP at purchasing power parities"
+    },
+    {
+        "date": 2012,
+        "value": 3735.8,
+        "sector": "GDP at purchasing power parities"
+    },
+    {
+        "date": 2013,
+        "value": 3754.8,
+        "sector": "GDP at purchasing power parities"
+    },
+    {
+        "date": 2014,
+        "value": 3836.1,
+        "sector": "GDP at purchasing power parities"
+    },
+    {
+        "date": 2015,
+        "value": 3890,
+        "sector": "GDP at purchasing power parities"
+    },
+    {
+        "date": 2016,
+        "value": 3976.1,
+        "sector": "GDP at purchasing power parities"
+    },
+    {
+        "date": 2017,
+        "value": 4095.6,
+        "sector": "GDP at purchasing power parities"
+    },
+    {
+        "date": 2018,
+        "value": 4142,
+        "sector": "GDP at purchasing power parities"
+    },
+    {
+        "date": 2019,
+        "value": 4184.6,
+        "sector": "GDP at purchasing power parities"
+    },
+    {
+        "date": 2020,
+        "value": 3998,
+        "sector": "GDP at purchasing power parities"
+    },
+    {
+        "date": 2021,
+        "value": 4142.9,
+        "sector": "GDP at purchasing power parities"
+    },
+    {
+        "date": 2022,
+        "value": 4202.8,
+        "sector": "GDP at purchasing power parities"
+    },
+    {
+        "date": 2023,
+        "value": 4200.2,
+        "sector": "GDP at purchasing power parities"
+    },
+    {
+        "date": 1991,
+        "value": 79891,
+        "sector": "Population"
+    },
+    {
+        "date": 1992,
+        "value": 80287,
+        "sector": "Population"
+    },
+    {
+        "date": 1993,
+        "value": 80810,
+        "sector": "Population"
+    },
+    {
+        "date": 1994,
+        "value": 81085,
+        "sector": "Population"
+    },
+    {
+        "date": 1995,
+        "value": 81238,
+        "sector": "Population"
+    },
+    {
+        "date": 1996,
+        "value": 81414,
+        "sector": "Population"
+    },
+    {
+        "date": 1997,
+        "value": 81508,
+        "sector": "Population"
+    },
+    {
+        "date": 1998,
+        "value": 81476,
+        "sector": "Population"
+    },
+    {
+        "date": 1999,
+        "value": 81417,
+        "sector": "Population"
+    },
+    {
+        "date": 2000,
+        "value": 81447,
+        "sector": "Population"
+    },
+    {
+        "date": 2001,
+        "value": 81488,
+        "sector": "Population"
+    },
+    {
+        "date": 2002,
+        "value": 81562,
+        "sector": "Population"
+    },
+    {
+        "date": 2003,
+        "value": 81568,
+        "sector": "Population"
+    },
+    {
+        "date": 2004,
+        "value": 81494,
+        "sector": "Population"
+    },
+    {
+        "date": 2005,
+        "value": 81383,
+        "sector": "Population"
+    },
+    {
+        "date": 2006,
+        "value": 81240,
+        "sector": "Population"
+    },
+    {
+        "date": 2007,
+        "value": 81058,
+        "sector": "Population"
+    },
+    {
+        "date": 2008,
+        "value": 80857,
+        "sector": "Population"
+    },
+    {
+        "date": 2009,
+        "value": 80586,
+        "sector": "Population"
+    },
+    {
+        "date": 2010,
+        "value": 80320,
+        "sector": "Population"
+    },
+    {
+        "date": 2011,
+        "value": 80288,
+        "sector": "Population"
+    },
+    {
+        "date": 2012,
+        "value": 80450,
+        "sector": "Population"
+    },
+    {
+        "date": 2013,
+        "value": 80676,
+        "sector": "Population"
+    },
+    {
+        "date": 2014,
+        "value": 81036,
+        "sector": "Population"
+    },
+    {
+        "date": 2015,
+        "value": 81809,
+        "sector": "Population"
+    },
+    {
+        "date": 2016,
+        "value": 82392,
+        "sector": "Population"
+    },
+    {
+        "date": 2017,
+        "value": 82691,
+        "sector": "Population"
+    },
+    {
+        "date": 2018,
+        "value": 82934,
+        "sector": "Population"
+    },
+    {
+        "date": 2019,
+        "value": 83111,
+        "sector": "Population"
+    },
+    {
+        "date": 2020,
+        "value": 83159,
+        "sector": "Population"
+    },
+    {
+        "date": 2021,
+        "value": 83206,
+        "sector": "Population"
+    },
+    {
+        "date": 2022,
+        "value": 83938,
+        "sector": "Population"
+    },
+    {
+        "date": 2023,
+        "value": 84532,
+        "sector": "Population"
+    },
+    {
+        "date": 1991,
+        "value": 993,
+        "sector": "CO2 emissions"
+    },
+    {
+        "date": 1992,
+        "value": 953,
+        "sector": "CO2 emissions"
+    },
+    {
+        "date": 1993,
+        "value": 937,
+        "sector": "CO2 emissions"
+    },
+    {
+        "date": 1994,
+        "value": 911,
+        "sector": "CO2 emissions"
+    },
+    {
+        "date": 1995,
+        "value": 922,
+        "sector": "CO2 emissions"
+    },
+    {
+        "date": 1996,
+        "value": 937,
+        "sector": "CO2 emissions"
+    },
+    {
+        "date": 1997,
+        "value": 907,
+        "sector": "CO2 emissions"
+    },
+    {
+        "date": 1998,
+        "value": 900,
+        "sector": "CO2 emissions"
+    },
+    {
+        "date": 1999,
+        "value": 867,
+        "sector": "CO2 emissions"
+    },
+    {
+        "date": 2000,
+        "value": 872,
+        "sector": "CO2 emissions"
+    },
+    {
+        "date": 2001,
+        "value": 888,
+        "sector": "CO2 emissions"
+    },
+    {
+        "date": 2002,
+        "value": 873,
+        "sector": "CO2 emissions"
+    },
+    {
+        "date": 2003,
+        "value": 874,
+        "sector": "CO2 emissions"
+    },
+    {
+        "date": 2004,
+        "value": 866,
+        "sector": "CO2 emissions"
+    },
+    {
+        "date": 2005,
+        "value": 844,
+        "sector": "CO2 emissions"
+    },
+    {
+        "date": 2006,
+        "value": 859,
+        "sector": "CO2 emissions"
+    },
+    {
+        "date": 2007,
+        "value": 832,
+        "sector": "CO2 emissions"
+    },
+    {
+        "date": 2008,
+        "value": 837,
+        "sector": "CO2 emissions"
+    },
+    {
+        "date": 2009,
+        "value": 782,
+        "sector": "CO2 emissions"
+    },
+    {
+        "date": 2010,
+        "value": 822,
+        "sector": "CO2 emissions"
+    },
+    {
+        "date": 2011,
+        "value": 793,
+        "sector": "CO2 emissions"
+    },
+    {
+        "date": 2012,
+        "value": 807,
+        "sector": "CO2 emissions"
+    },
+    {
+        "date": 2013,
+        "value": 822,
+        "sector": "CO2 emissions"
+    },
+    {
+        "date": 2014,
+        "value": 784,
+        "sector": "CO2 emissions"
+    },
+    {
+        "date": 2015,
+        "value": 788,
+        "sector": "CO2 emissions"
+    },
+    {
+        "date": 2016,
+        "value": 789,
+        "sector": "CO2 emissions"
+    },
+    {
+        "date": 2017,
+        "value": 805,
+        "sector": "CO2 emissions"
+    },
+    {
+        "date": 2018,
+        "value": 782,
+        "sector": "CO2 emissions"
+    },
+    {
+        "date": 2019,
+        "value": 721,
+        "sector": "CO2 emissions"
+    },
+    {
+        "date": 2020,
+        "value": 631,
+        "sector": "CO2 emissions"
+    },
+    {
+        "date": 2021,
+        "value": 675,
+        "sector": "CO2 emissions"
+    },
+    {
+        "date": 2022,
+        "value": 668,
+        "sector": "CO2 emissions"
+    }
+]
