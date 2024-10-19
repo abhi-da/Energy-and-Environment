@@ -26,4 +26,6 @@ I will arrange the codes, files and the graphs in two ways. First way- Divide di
 
 The analysis of the project will be saved in Report.pdf in teh current directory.
 
+Some files may have the same name, like Kaya.csv and Kaya_new.csv. Consider the file conataining 'new' in the file name. They are the correct ones.
+
 Thanks
