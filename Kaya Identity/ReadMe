@@ -1,0 +1,29 @@
+KAYA IDENTITY(PROJECT)
+
+Assignment Instructions
+
+    1) Choose a country from the top 20 CO₂ emitting countries in the world – exclude India and the USA.
+    2) Extract the following data from the EIA website:
+          Primary energy supply by fuels/energy source
+          CO₂ emissions by energy source
+          Total electricity generation
+          GDP
+          Population
+    3) Replication exercise:
+          Undertake an analysis similar to that presented in Chapter 7 of the Human Ambitions book for your chosen country.
+          Undertake an analysis similar to that presented in the Drivers of Accelerating CO₂ Emissions paper for your chosen country.
+    4) Compare with SDR data - look at the Codebook sheet of the SDR data to see indicator definitions.
+          Calculate the ratio of Total CO₂ emissions and Total electricity generated and compare with the SDR data for indicator sdg7_co2twh (7.2).
+          Calculate the share of renewable energy in the primary energy supply and compare with SDR data for indicator sdg7_renewcon (7.2.1).
+    5) Using this analysis, identify possible research questions.
+    6) Present your findings in a report with appropriate sections and in academic language. Keep the codes/Excel files in an organized manner and presentable format. I may request them if required.
+
+
+I have downloaded data from 'https://www.eia.gov/'. The particular link where the datasets were present goes by- 'https://www.eia.gov/international/data/world/other-statistics/emissions-by-fuel?pd=40&p=0000000000000000000000000000000000000000000000000000000b0001&u=0&f=A&v=mapbubble&a=-&i=none&vo=value&t=C&g=00000000000000000000000000000000000000000000000001&l=249-ruvvvvvfvtvnvv1vrvvvvfvvvvvvfvvvou20evvvvvvvvvvnvvvs0008&s=-662688000000&e=1640995200000'
+
+I have downloded data for Country Germany and the World Total data. The data variables were- CO2 emissions, Gross Domestic Product, Population, Primary Energy Consumption (The data of Primary energy consumption at EIA is analogous to primary energy supplt at IEA), and Energy Generation. 
+I will arrange the codes, files and the graphs in two ways. First way- Divide directories in terms of replication exercises and store the assosciated codes, files and graphs. Second way- Make three seperate directories for \Data, \Graphs, \Codes.
+
+The analysis of the project will be saved in Report.pdf in teh current directory.
+
+Thanks
