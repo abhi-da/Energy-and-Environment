@@ -1,0 +1,40 @@
+Sector: total energy consumption from coal
+  Peak: 1991 with a value of 5.01
+  Dip: 2020 with a value of 1.78
+
+Sector: total energy consumption from natural gas
+  Peak: 2019 with a value of 3.48
+  Dip: 1992 with a value of 2.45
+
+Sector: total energy consumption from nuclear
+  Peak: 2001 with a value of 1.64
+  Dip: 2022 with a value of 0.33
+
+Sector: total energy consumption from petroleum and other liquids
+  Peak: 1996 with a value of 6.04
+  Dip: 2020 with a value of 4.42
+
+Sector: total energy consumption from renewables and other
+  Peak: 2022 with a value of 1.15
+  Dip: 1991 with a value of 0.10
+
+Share of total energy consumption from coal share:
+  Peak: 1991 with a share of 33.76%
+  Dip: 2020 with a share of 16.02%
+
+Share of total energy consumption from natural gas share:
+  Peak: 2020 with a share of 28.64%
+  Dip: 1991 with a share of 16.69%
+
+Share of total energy consumption from nuclear share:
+  Peak: 1999 with a share of 11.44%
+  Dip: 2022 with a share of 2.93%
+
+Share of total energy consumption from petroleum and other liquids share:
+  Peak: 1994 with a share of 41.59%
+  Dip: 2007 with a share of 36.58%
+
+Share of total energy consumption from renewables and other share:
+  Peak: 2022 with a share of 10.33%
+  Dip: 1991 with a share of 0.67%
+
